@@ -8,6 +8,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const multer = require("multer");
 const fs = require("fs");
+const cloudinary = require("cloudinary").v2;
 
 const Property = require("./models/Property");
 const Lead = require("./models/Lead");
@@ -16,6 +17,13 @@ const Admin = require("./models/Admin");
 const app = express();
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = process.env.JWT_SECRET || "mahesh_verse_fallback_secret_key";
+
+// Configure Cloudinary
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET
+});
 
 // Setup upload folders
 const uploadDir = path.join(__dirname, "uploads");
@@ -299,14 +307,34 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-app.post("/api/upload", authenticateToken, upload.single("file"), (req, res) => {
+app.post("/api/upload", authenticateToken, upload.single("file"), async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).json({ message: "No file uploaded" });
     }
-    const fileUrl = `/uploads/${req.file.filename}`;
-    res.json({ fileUrl });
+    
+    // Check if Cloudinary credentials are set in environment
+    if (process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY && process.env.CLOUDINARY_API_SECRET) {
+      const result = await cloudinary.uploader.upload(req.file.path, {
+        folder: "mahesh_verse_uploads"
+      });
+      // Delete temporary local file
+      fs.unlinkSync(req.file.path);
+      return res.json({ fileUrl: result.secure_url });
+    } else {
+      const fileUrl = `/uploads/${req.file.filename}`;
+      return res.json({ fileUrl });
+    }
   } catch (error) {
+    console.error("File upload error:", error);
+    // Clean up temporary local file if it exists
+    if (req.file && fs.existsSync(req.file.path)) {
+      try {
+        fs.unlinkSync(req.file.path);
+      } catch (err) {
+        console.error("Cleanup error:", err);
+      }
+    }
     res.status(500).json({ message: "Error uploading file" });
   }
 });
