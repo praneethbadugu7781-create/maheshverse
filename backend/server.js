@@ -317,7 +317,8 @@ app.post("/api/upload", authenticateToken, upload.single("file"), async (req, re
     // Check if Cloudinary credentials are set in environment
     if (process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY && process.env.CLOUDINARY_API_SECRET) {
       const result = await cloudinary.uploader.upload(req.file.path, {
-        folder: "mahesh_verse_uploads"
+        folder: "mahesh_verse_uploads",
+        resource_type: "auto"
       });
       // Delete temporary local file
       fs.unlinkSync(req.file.path);
