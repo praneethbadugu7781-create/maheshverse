@@ -169,12 +169,12 @@ export default function AdminPropertiesPage() {
       });
 
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Failed to upload file.");
+      if (!res.ok) throw new Error(data.error || data.message || "Failed to upload file.");
 
       if (type === "video") {
-        setForm((prev) => ({ ...prev, videoUrl: data.url }));
+        setForm((prev) => ({ ...prev, videoUrl: data.fileUrl }));
       } else {
-        setForm((prev) => ({ ...prev, images: [...prev.images, data.url] }));
+        setForm((prev) => ({ ...prev, images: [...prev.images, data.fileUrl] }));
       }
     } catch (err: any) {
       alert("Upload error: " + err.message);
@@ -472,6 +472,19 @@ export default function AdminPropertiesPage() {
                   />
                 </label>
               </div>
+              {form.videoUrl && (
+                <div className="mt-3 p-3 bg-gray-50 border border-gray-150 rounded-2xl flex flex-col items-center justify-center gap-2">
+                  <span className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Video Preview</span>
+                  <div className="relative w-full max-w-[200px] aspect-[9/16] rounded-xl overflow-hidden bg-black border border-gray-200 shadow-sm">
+                    <video
+                      src={form.videoUrl}
+                      controls
+                      playsInline
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Description */}
