@@ -133,6 +133,7 @@ app.post("/api/auth/login", async (req, res) => {
 
     res.json({ success: true, username: admin.username });
   } catch (error) {
+    console.error("Login error detail:", error);
     res.status(500).json({ success: false, message: "Authentication server error" });
   }
 });
