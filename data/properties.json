@@ -1,0 +1,203 @@
+[
+  {
+    "_id": "prop_1782202965904",
+    "slug": "serene-meadows-farm-land",
+    "images": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "highlights": [
+      "Fully Fenced 1-Acre Land",
+      "100+ Fruit-bearing Organic Trees",
+      "Drip Irrigation & Water Borewell",
+      "Cosy 1BHK Farm Cottage",
+      "Close to Shamshabad Airport"
+    ],
+    "specifications": {
+      "Total Area": "1 Acre (43,560 Sq. Ft.)",
+      "Title Deed": "Clear Agricultural Title",
+      "Tree Count": "80 Mango, 20 Coconut",
+      "Electricity Connection": "3-Phase Agricultural",
+      "Road Access": "20ft Gravel Road"
+    },
+    "isFeatured": false,
+    "createdAt": "2026-06-23T08:22:45.904Z",
+    "title": "Serene Meadows Farm Land",
+    "description": "Spread over 1 acre of lush green fertile land in Shamshabad, close to Hyderabad International Airport. Features organic fruit plantation (mango, guava, cheeku), water borewell connection, drip irrigation system, secure fencing with gate, and a beautiful 1BHK weekend farm cottage. An ideal retreat for nature enthusiasts and organic hobby farming.",
+    "location": "Shamshabad, Hyderabad",
+    "price": 25000000,
+    "category": "Farm Lands",
+    "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-a-suburban-neighborhood-42289-large.mp4",
+    "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.23847727181!2d78.397053!3d17.2456821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb998eb%3A0xc3f8e5f1b1eb8894!2sShamshabad%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+    "metaTitle": "1 Acre Farm Land with Cottage for Sale Shamshabad | Mahesh Verse",
+    "metaDescription": "Fabulous weekend farm land in Shamshabad. Beautiful cottage, organic fruit trees, clear registration titles. Read reviews."
+  },
+  {
+    "_id": "prop_1782202965894",
+    "slug": "tech-hub-premium-office-complex",
+    "images": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "highlights": [
+      "Grade-A LEED Certified Building",
+      "Stable MNC Tenant (8% Yield)",
+      "High Speed Elevators & Fire Escapes",
+      "Reserved Multi-level Parking",
+      "Centralized AC & Power Backup"
+    ],
+    "specifications": {
+      "Floor Area": "3,500 Sq. Ft.",
+      "Floor Level": "6th Floor",
+      "Tenant Details": "IT Consulting Firm",
+      "Rental Income": "₹2.8 Lakhs / Month",
+      "Lock-in Period": "5 Years"
+    },
+    "isFeatured": false,
+    "createdAt": "2026-06-23T08:22:45.894Z",
+    "title": "Tech Hub Premium Office Complex",
+    "description": "Grade-A commercial office space in Hitech City, Hyderabad. Features open-plan workspace layouts, high-speed elevators, centralized VRV air conditioning, double-glazed soundproof windows, and 100% DG power backup. Currently leased to an MNC with a stable 8% rental yield, offering immediate monthly cash flow for smart investors.",
+    "location": "Hitech City, Hyderabad",
+    "price": 42000000,
+    "category": "Commercial Properties",
+    "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-kitchen-in-a-modern-home-41583-large.mp4",
+    "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.875249567954!2d78.3725612!3d17.4514217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dfd68a2bf1%3A0xc3f8e5f1b1eb8894!2sHitec%20City%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
+    "metaTitle": "Commercial Office Space in Hitech City Hyderabad | Mahesh Verse",
+    "metaDescription": "Own a pre-leased commercial office space in Hitech City with high rental yield. Excellent asset for commercial real estate portfolios."
+  },
+  {
+    "_id": "prop_1782202965884",
+    "slug": "ecr-ocean-breeze-beachside-villa",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "highlights": [
+      "Direct Beach Access",
+      "Panoramic Sea View Deck",
+      "Double Height Living Room",
+      "Landscaped Private Lawns",
+      "Barbeque & Lounge Gazebo"
+    ],
+    "specifications": {
+      "Configuration": "4 BHK Beach Villa",
+      "Bathrooms": "4 Bathrooms",
+      "Built-up Area": "4,100 Sq. Ft.",
+      "Land Area": "1.5 Grounds",
+      "Age of Property": "Ready to Occupy",
+      "Parking": "4 Car Parking"
+    },
+    "isFeatured": true,
+    "createdAt": "2026-06-23T08:22:45.884Z",
+    "title": "ECR Ocean Breeze Beachside Villa",
+    "description": "Breathtaking beachside villa on East Coast Road (ECR), Chennai. Steps away from the sandy shore, this property combines modern coastal architecture with absolute luxury. Features an open deck with sea views, an outdoor barbeque kitchen, and lush tropical lawns. Perfect as a weekend home, luxury getaway, or high-yield investment asset.",
+    "location": "East Coast Road, Chennai",
+    "price": 55000000,
+    "category": "Beachside Properties",
+    "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-interior-of-a-modern-luxury-home-41580-large.mp4",
+    "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31117.84277727181!2d80.245053!3d12.8606821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c3866164dfb%3A0xc3f8e5f1b1eb8894!2sEast%20Coast%20Road%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
+    "metaTitle": "Luxury Beachfront Villa for Sale in ECR Chennai | Mahesh Verse",
+    "metaDescription": "Fabulous 4 BHK Sea View Beach House on ECR Chennai. Private access to the beach. Watch property video and book a visit."
+  },
+  {
+    "_id": "prop_1782202965874",
+    "slug": "prime-gated-plot-at-greenfield-estate",
+    "images": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1524813686514-a57563d77965?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "highlights": [
+      "HMDA Approved Layout",
+      "Underground Drainage & Water Pipes",
+      "Overhead Water Tank Facility",
+      "Gated Perimeter with Security Cabins",
+      "Children's Play Parks & Jogging Track"
+    ],
+    "specifications": {
+      "Plot Area": "300 Sq. Yards (2700 Sq. Ft.)",
+      "Facing": "West Facing",
+      "Zoning": "Residential (Villa Plot)",
+      "Road Width": "40 Feet",
+      "Zoning Permission": "G+3 Construction"
+    },
+    "isFeatured": true,
+    "createdAt": "2026-06-23T08:22:45.874Z",
+    "title": "Prime Gated Plot at Greenfield Estate",
+    "description": "Excellent investment opportunity in a premium gated plot community in Gachibowli. Featuring wide asphalt roads, manicured landscape parks, underground electricity cables, and 24/7 security control. Strategically positioned close to leading IT parks, international schools, and outer ring road. Ready for immediate villa construction.",
+    "location": "Gachibowli, Hyderabad",
+    "price": 12000000,
+    "category": "Residential Plots",
+    "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-a-suburban-neighborhood-42289-large.mp4",
+    "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15228.471676664972!2d78.3377983!3d17.4137256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93f4cdbe6b83%3A0x63b2184aa9265bb8!2sGachibowli%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
+    "metaTitle": "HMDA Approved Plot for Sale in Gachibowli | Mahesh Verse",
+    "metaDescription": "Invest in a premium 300 Sq.Yd plot inside Greenfield Gated Community, Gachibowli. Excellent ROI potential. Contact for pricing."
+  },
+  {
+    "_id": "prop_1782202965865",
+    "slug": "skyline-residency-3bhk-penthouse",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "highlights": [
+      "Vastu Compliant Layout",
+      "Private Wrap-around Balcony",
+      "Full Modular Kitchen with Appliances",
+      "Multi-tier Clubhouse Access",
+      "Power Backup & Water Treatment"
+    ],
+    "specifications": {
+      "Configuration": "3 BHK Penthouse",
+      "Bathrooms": "3 Bathrooms",
+      "Super Area": "2,100 Sq. Ft.",
+      "Facing": "North Facing",
+      "Age of Property": "Brand New",
+      "Floor Number": "14th of 14 Floors"
+    },
+    "isFeatured": true,
+    "createdAt": "2026-06-23T08:22:45.865Z",
+    "title": "Skyline Residency 3BHK Penthouse",
+    "description": "An elegant, fully-furnished 3BHK penthouse located in the heart of Madhapur. Boasting floor-to-ceiling glass walls, a private wrap-around terrace, and custom contemporary furniture. Enjoy sunrise views over the city from your master suite. Residents get full access to the tower's infinity swimming pool, sky lounge, executive gym, and 24/7 concierge services.",
+    "location": "Madhapur, Hyderabad",
+    "price": 18500000,
+    "category": "Apartments",
+    "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-modern-apartment-with-beautiful-view-40742-large.mp4",
+    "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15226.33120150993!2d78.3755483!3d17.448589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93a479b0680d%3A0x8ad9e2f41ed52504!2sMadhapur%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
+    "metaTitle": "Premium 3 BHK Penthouse in Madhapur | Mahesh Verse",
+    "metaDescription": "Stunning 3 BHK Penthouse with panoramic views in Madhapur, Hyderabad. Available for immediate sale. Schedule a private site visit."
+  },
+  {
+    "_id": "prop_1782202965854",
+    "slug": "the-golden-crest-luxury-villa",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "highlights": [
+      "Private Swimming Pool",
+      "Home Automation System",
+      "Private Soundproof Cinema Room",
+      "Italian Marble Flooring",
+      "24/7 Premium Gated Security",
+      "Servant Quarters & Utility Area"
+    ],
+    "specifications": {
+      "Configuration": "4 BHK",
+      "Bathrooms": "5 Bathrooms",
+      "Super Area": "5,200 Sq. Ft.",
+      "Facing": "East Facing",
+      "Furnishing": "Fully Furnished",
+      "Car Parking": "3 Covered Spaces"
+    },
+    "isFeatured": true,
+    "createdAt": "2026-06-23T08:22:45.854Z",
+    "title": "The Golden Crest Luxury Villa",
+    "description": "Experience ultra-luxury living at Jubilee Hills. This architectural masterpiece features Italian marble flooring, high ceilings, custom wooden architecture, and a private temperature-controlled infinity pool. Tucked away in Hyderabad's most exclusive enclave, this home offers unmatched privacy, state-of-the-art security, and breathtaking views of the city skyline. Perfect for high-profile executives and families seeking a premium lifestyle.",
+    "location": "Jubilee Hills, Hyderabad",
+    "price": 65000000,
+    "category": "Villas",
+    "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-luxury-home-interior-41584-large.mp4",
+    "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15227.185695029377!2d78.3976527!3d17.4265439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90c0cf9419eb%3A0xc3f8e5f1b1eb8894!2sJubilee%20Hills%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin",
+    "metaTitle": "Luxury 4 BHK Villa for Sale in Jubilee Hills | Mahesh Verse",
+    "metaDescription": "Explore The Golden Crest, an ultra-luxury 4 BHK Villa with private pool in Jubilee Hills, Hyderabad. View details, video reels, and enquire today."
+  }
+]
